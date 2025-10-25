@@ -131,7 +131,7 @@
 		"start_value": 100,
 		"max": 100,
 		"hud_render": {
-			"should_render": true,
+			"should_render": false,
 			"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
 			"bar_index": 3,
 			"condition": {
@@ -161,7 +161,7 @@
 			"type": "origins:modify_resource",
 			"modifier": {
 				"operation": "add_base_early",
-				"amount": -1
+				"amount": 0
 			},
 			"resource": "*:*_flight_resource"
 		}
@@ -194,7 +194,7 @@
 			"type": "origins:modify_resource",
 			"modifier": {
 				"operation": "add_base_early",
-				"amount": 1
+				"amount": 0
 			},
 			"resource": "*:*_flight_resource"
 		}
@@ -471,7 +471,7 @@
 										"type": "origins:resource",
 										"resource": "*:*_flight_resource",
 										"comparison": ">=",
-										"compare_to": 20
+										"compare_to": 0
 									}
 								]
 							},
@@ -479,7 +479,7 @@
 								"type": "origins:resource",
 								"resource": "*:*_flight_resource",
 								"comparison": ">=",
-								"compare_to": 50
+								"compare_to": 0
 							}
 						]
 					}
@@ -524,7 +524,7 @@
 							"resource": "*:*_flight_resource",
 							"modifier": {
 								"operation": "add_base_early",
-								"amount": -50
+								"amount": 0
 							}
 						},
 						"else_action": {
@@ -532,7 +532,7 @@
 							"resource": "*:*_flight_resource",
 							"modifier": {
 								"operation": "add_base_early",
-								"amount": -20
+								"amount": 0
 							}
 						}
 					},
@@ -608,7 +608,7 @@
 									"type": "origins:resource",
 									"resource": "*:*_flight_resource",
 									"comparison": ">=",
-									"compare_to": 25
+									"compare_to": 0
 								}
 							]
 						},
@@ -616,7 +616,7 @@
 							"type": "origins:resource",
 							"resource": "*:*_flight_resource",
 							"comparison": ">=",
-							"compare_to": 50
+							"compare_to": 0
 						}
 					]
 				}
@@ -665,7 +665,7 @@
 						"resource": "*:*_flight_resource",
 						"modifier": {
 							"operation": "add_base_early",
-							"amount": -50
+							"amount": 0
 						}
 					},
 					"else_action": {
@@ -673,7 +673,7 @@
 						"resource": "*:*_flight_resource",
 						"modifier": {
 							"operation": "add_base_early",
-							"amount": -25
+							"amount": 0
 						}
 					}
 				},
